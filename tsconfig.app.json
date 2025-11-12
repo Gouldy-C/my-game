@@ -26,9 +26,9 @@
 
     "baseUrl": ".",
     "paths": {
-      "@/*": [
-        "./src/*"
-      ]
+      "@/*": ["./src/*"],
+      "@electron/*": ["./src/electron/*"],
+      "@ui/*": ["./src/ui/*"]
     }
   },
   "include": ["src"]
