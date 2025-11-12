@@ -1,5 +1,5 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
+import reactLogo from "@ui/assets/react.svg";
 import { ThemeToggle } from "@ui/components/theme/theme-toggle";
 
 function App() {
