@@ -18,6 +18,10 @@ export default defineConfig({
       "@ui": path.resolve(__dirname, "./src/ui"),
       "@electron": path.resolve(__dirname, "./src/electron"),
       "@": path.resolve(__dirname, "./src"),
+      "@game": path.resolve(__dirname, "./src/game"),
     },
+  },
+  build: {
+    outDir: "dist-ui",
   },
 })

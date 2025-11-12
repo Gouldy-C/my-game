@@ -28,7 +28,8 @@
     "paths": {
       "@/*": ["./src/*"],
       "@electron/*": ["./src/electron/*"],
-      "@ui/*": ["./src/ui/*"]
+      "@ui/*": ["./src/ui/*"],
+      "@game/*": ["./src/game/*"]
     }
   },
   "include": ["src"]
