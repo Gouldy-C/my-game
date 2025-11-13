@@ -29,7 +29,8 @@
       "@/*": ["./*"],
       "@ui/*": ["./src/ui/*"],
       "@game/*": ["./src/game/*"],
-      "@physics/*": ["./src/physics/*"]
+      "@physics/*": ["./src/physics/*"],
+      "@renderer/*": ["./src/renderer/*"]
     }
   },
   "include": ["src"],

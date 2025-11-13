@@ -20,6 +20,7 @@ export default defineConfig({
       "@electron": path.resolve(__dirname, "./electron"),
       "@": path.resolve(__dirname, "./"),
       "@game": path.resolve(__dirname, "./src/game"),
+      "@renderer": path.resolve(__dirname, "./src/renderer"),
     },
   },
   build: {
