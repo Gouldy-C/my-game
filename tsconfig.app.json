@@ -26,11 +26,12 @@
 
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"],
-      "@electron/*": ["./src/electron/*"],
+      "@/*": ["./*"],
       "@ui/*": ["./src/ui/*"],
-      "@game/*": ["./src/game/*"]
+      "@game/*": ["./src/game/*"],
+      "@physics/*": ["./src/physics/*"]
     }
   },
-  "include": ["src"]
+  "include": ["src"],
+  "exclude": ["electron"]
 }
