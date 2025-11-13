@@ -27,21 +27,6 @@ export default defineConfig({
     sourcemap: true, // Enable source maps for better debugging
     minify: "esbuild", // Fast minification
     target: "esnext", // Modern target for better tree-shaking
-    rollupOptions: {
-      output: {
-        // Optimize chunk splitting
-        manualChunks: {
-          vendor: ["react", "react-dom"],
-          ui: [
-            "@radix-ui/react-dialog",
-            "@radix-ui/react-dropdown-menu",
-            "@radix-ui/react-select",
-          ],
-        },
-      },
-    },
-    // Optimize chunk size warnings
-    chunkSizeWarningLimit: 1000,
   },
   server: {
     port: 6554,
